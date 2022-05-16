@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".detail.DetailUser">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/ini_adalah_post"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:transitionName="post"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/username1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:transitionName="uname"
+            android:text="@string/name"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/avatarDetail"
+            app:layout_constraintTop_toTopOf="@+id/avatarDetail" />
+
+
+        <ImageView
+            android:id="@+id/avatarDetail"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:transitionName="ava"
+            android:contentDescription="@string/ini_profile"
+            app:layout_constraintBottom_toTopOf="@+id/post"
+            app:layout_constraintStart_toStartOf="@+id/post"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="20dp"
+            android:transitionName="posted"
+            android:text="@string/postdate"
+            app:layout_constraintBottom_toBottomOf="@+id/avatarDetail"
+            app:layout_constraintStart_toStartOf="@+id/username1"
+            app:layout_constraintTop_toBottomOf="@+id/username1" />
+
+        <TextView
+            android:id="@+id/username2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/name"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/post"
+            app:layout_constraintTop_toBottomOf="@+id/post" />
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="-5dp"
+            android:text="@string/description"
+            app:layout_constraintStart_toStartOf="@+id/username2"
+            app:layout_constraintTop_toBottomOf="@+id/username2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApps</string>
+    <string name="stories_name">Nama User</string>
+    <string name="description">Deskripsi</string>
+    <string name="gallery">galeri</string>
+    <string name="upload">unggah</string>
+    <string name="camera_x">cameraX</string>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="email_address">alamat email</string>
+    <string name="password">kata sandi</string>
+    <string name="email_not_valid">Email tidak valid!</string>
+    <string name="name">nama</string>
+    <string name="ini_adalah_post">ini adalah post</string>
+    <string name="ini_profile">ini profile</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="ini_foto_yang_akan_diunggah">ini foto yang akan diunggah</string>
+    <string name="let_s_go_in">Let\'s Go In</string>
+    <string name="postdate">tanggal</string>
+    <string name="tap_for_more">Tekan untuk melihat lebih</string>
+    <string name="logout">keluar</string>
+    <string name="put_your_caption_here">tulis keterangan disini</string>
+    <string name="postHours">Dipost </string>
+    <string name="hours"> jam </string>
+    <string name="minutes"> menit </string>
+    <string name="ago">yang lalu</string>
+    <string name="setting">setting</string>
+    <string name="previous">sebelumnya</string>
+    <string name="next">selanjutnya</string>
+    <string name="_1">1</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satelit</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="start_running">Start Running</string>
+    <string name="stop_running">Stop Running</string>
+    <string name="start_point">Start Point</string>
+    <string name="retry">Coba lagi</string>
+</resources>
